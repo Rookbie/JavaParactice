@@ -16,6 +16,7 @@ public class Variable
         float floatVar = 123.45f;
         double doubleVar = 1234567890.12345;
         char charVar = 'A';
+        charVar = 24;
 
         // 引用类型 - String
         String strVar = "Hello, World!";
