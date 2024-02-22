@@ -15,5 +15,7 @@ public class MainFunc {
 //        }
         Variable variable =new Variable();
         variable.TestJavaVariable();
+
+        System.out.println("test create branch ");
     }
 }
