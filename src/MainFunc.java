@@ -13,8 +13,10 @@ public class MainFunc {
 //            // 但您始终可以通过按 Ctrl+F8 添加更多断点。
 //            System.out.println("i = " + i);
 //        }
-        Variable variable =new Variable();
-        variable.TestJavaVariable();
+//        Variable variable =new Variable();
+//        variable.TestJavaVariable();
+
+        boolean bIsValidParentheses = ValidParentheses.isValid("()");
 
         System.out.println("test create branch ");
     }
