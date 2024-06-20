@@ -16,7 +16,10 @@ public class MainFunc {
 //        Variable variable =new Variable();
 //        variable.TestJavaVariable();
 
-        boolean bIsValidParentheses = ValidParentheses.isValid("()");
+        //boolean bIsValidParentheses = ValidParentheses.isValid("()");
+        CountBeautifulPairs countBeautifulPairs = new CountBeautifulPairs();
+        int res = countBeautifulPairs.countBeautifulPairs(new int[]{2, 11, 20, 13, 7, 12, 10});
+        System.out.println(res);
 
         System.out.println("test create branch ");
     }
