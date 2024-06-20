@@ -1,3 +1,4 @@
+import java.util.Arrays;
 // 按两次 Shift 打开“随处搜索”对话框并输入 `show whitespaces`，
 // 然后按 Enter 键。现在，您可以在代码中看到空格字符。
 public class MainFunc {
@@ -16,11 +17,14 @@ public class MainFunc {
 //        Variable variable =new Variable();
 //        variable.TestJavaVariable();
 
-        //boolean bIsValidParentheses = ValidParentheses.isValid("()");
-        CountBeautifulPairs countBeautifulPairs = new CountBeautifulPairs();
-        int res = countBeautifulPairs.countBeautifulPairs(new int[]{2, 11, 20, 13, 7, 12, 10});
-        System.out.println(res);
+//        //boolean bIsValidParentheses = ValidParentheses.isValid("()");
+//        CountBeautifulPairs countBeautifulPairs = new CountBeautifulPairs();
+//        int res = countBeautifulPairs.countBeautifulPairs(new int[]{2, 11, 20, 13, 7, 12, 10});
+//        System.out.println(res);
 
+        var maxSlidingWindow = MaxSlidingWindow.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
+
+        System.out.println(Arrays.toString(maxSlidingWindow));
         System.out.println("test create branch ");
     }
 }
