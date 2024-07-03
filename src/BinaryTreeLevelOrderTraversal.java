@@ -40,6 +40,15 @@ public class BinaryTreeLevelOrderTraversal {
         dfs(root.left, level+1);
         dfs(root.right, level+1);
     }
+
+    public static int getMaxDepth(TreeNode node) {
+        if (node == null) return 0;
+
+        int leftDepth = getMaxDepth(node.left) + 1;
+        int rightDepth = getMaxDepth(node.right) + 1;
+
+        return Math.max(leftDepth, rightDepth);
+    }
 }
 class TreeNode {
       int val;
