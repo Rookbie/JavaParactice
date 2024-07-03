@@ -31,7 +31,7 @@ public class BinaryTreeLevelOrderTraversal {
     private  static  void dfs(TreeNode root, int level){
         if(root == null)return;
 
-        if(TRAVERSAL_LIST.size() == level +1){
+        if(TRAVERSAL_LIST.size() == level){
             TRAVERSAL_LIST.add(new ArrayList<>());
         }
         List<Integer> levelList = TRAVERSAL_LIST.get(level);
