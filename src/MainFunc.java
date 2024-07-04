@@ -22,9 +22,9 @@ public class MainFunc {
 //        int res = countBeautifulPairs.countBeautifulPairs(new int[]{2, 11, 20, 13, 7, 12, 10});
 //        System.out.println(res);
 
-        var maxSlidingWindow = MaxSlidingWindow.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
+//        var maxSlidingWindow = MaxSlidingWindow.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
 
-        System.out.println(Arrays.toString(maxSlidingWindow));
+//        System.out.println(Arrays.toString(maxSlidingWindow));
         System.out.println("test create branch ");
     }
 }
