@@ -25,6 +25,8 @@ public class MainFunc {
 //        var maxSlidingWindow = MaxSlidingWindow.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
 
 //        System.out.println(Arrays.toString(maxSlidingWindow));
+        int len= LongestConsecutive.longestConsecutive(new int[]{0, 3, 7, 2, 5, 8, 4, 6, 0, 1});
+        System.out.println(len);
         System.out.println("test create branch ");
     }
 }
