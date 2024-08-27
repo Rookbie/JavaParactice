@@ -27,8 +27,10 @@ public class MainFunc {
 //        System.out.println(Arrays.toString(maxSlidingWindow));
 //        int len= LongestConsecutive.longestConsecutive(new int[]{0, 3, 7, 2, 5, 8, 4, 6, 0, 1});
 //        System.out.println(len);
-        Permute permute = new Permute();
-        var res = permute.permute(new int[]{1, 2, 3});
+//        Permute permute = new Permute();
+//        var res = permute.permute(new int[]{1, 2, 3});
+        MedianOfUniquenessArray medianOfUniquenessArray = new MedianOfUniquenessArray();
+        System.out.println(medianOfUniquenessArray.medianOfUniquenessArray(new int[]{1, 2, 3}));
         System.out.println("test create branch ");
     }
 }
