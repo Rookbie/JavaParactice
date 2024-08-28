@@ -29,8 +29,10 @@ public class MainFunc {
 //        System.out.println(len);
 //        Permute permute = new Permute();
 //        var res = permute.permute(new int[]{1, 2, 3});
-        MedianOfUniquenessArray medianOfUniquenessArray = new MedianOfUniquenessArray();
-        System.out.println(medianOfUniquenessArray.medianOfUniquenessArray(new int[]{1, 2, 3}));
-        System.out.println("test create branch ");
+//        MedianOfUniquenessArray medianOfUniquenessArray = new MedianOfUniquenessArray();
+//        System.out.println(medianOfUniquenessArray.medianOfUniquenessArray(new int[]{1, 2, 3}));
+//        System.out.println("test create branch ");
+        MinimumSubstringsInPartition minimumSubstringsInPartition = new MinimumSubstringsInPartition();
+        System.out.println(minimumSubstringsInPartition.minimumSubstringsInPartition("fabccddg"));
     }
 }
