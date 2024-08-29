@@ -32,7 +32,9 @@ public class MainFunc {
 //        MedianOfUniquenessArray medianOfUniquenessArray = new MedianOfUniquenessArray();
 //        System.out.println(medianOfUniquenessArray.medianOfUniquenessArray(new int[]{1, 2, 3}));
 //        System.out.println("test create branch ");
-        MinimumSubstringsInPartition minimumSubstringsInPartition = new MinimumSubstringsInPartition();
-        System.out.println(minimumSubstringsInPartition.minimumSubstringsInPartition("fabccddg"));
+//        MinimumSubstringsInPartition minimumSubstringsInPartition = new MinimumSubstringsInPartition();
+//        System.out.println(minimumSubstringsInPartition.minimumSubstringsInPartition("fabccddg"));
+        LongestPalindrome longestPalindrome = new LongestPalindrome();
+        longestPalindrome.longestPalindrome("cbbd");
     }
 }
